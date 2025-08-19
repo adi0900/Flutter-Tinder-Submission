@@ -31,26 +31,10 @@
       ]
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "^/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "^/favicon.ico$",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "^/manifest.json$",
-      "dest": "/manifest.json"
-    },
-    {
-      "src": "^/icons/(.*)",
-      "dest": "/icons/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/((?!assets|icons|favicon.ico|manifest.json|flutter.js|flutter_bootstrap.js|flutter_service_worker.js|main.dart.js|canvaskit|version.json).*)",
+      "destination": "/index.html"
     }
   ]
 }
