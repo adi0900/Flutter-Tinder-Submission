@@ -1,0 +1,35 @@
+# Flutter specific
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Testing
+test/
+coverage/
+
+# Documentation
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Windows specific
+windows/
+# Only include if needed for Windows desktop builds
+
+# Analysis
+analysis_options.yaml
