@@ -40,7 +40,7 @@ A sophisticated Flutter dating application featuring smooth animations, elegant 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/flutter-dating-app.git
+   git clone https://github.com/adi0900/flutter-dating-app.git
    cd flutter-dating-app
    ```
 
