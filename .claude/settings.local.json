@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(flutter:*)",
-      "Bash(chmod +x build.sh)"
+      "Bash(chmod +x build.sh)",
+      "Bash(touch:*)",
+      "Bash(chmod:*)"
     ],
     "deny": [],
     "ask": []
